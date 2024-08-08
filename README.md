@@ -4,6 +4,7 @@ DiscordPipe is a Minecraft Spigot server plugin that integrates Minecraft server
 
 ## Features
 
+- Easy to use. Support original client.
 - Pipe Minecraft player chat messages to a Discord channel.
 - Allow Minecraft players to use Discord emojis in their messages.
 - Broadcast server events (like player deaths and achievements) to a Discord channel.
