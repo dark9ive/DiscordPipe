@@ -9,11 +9,17 @@ DiscordPipe is a Minecraft Spigot server plugin that integrates Minecraft server
 - Broadcast server events (like player deaths and achievements) to a Discord channel.
 - Handle and format various types of messages and attachments from Discord.
 
+<center>
+
+![demo](./img/demo.gif)
+
+</center>
+
 ## Requirements
 
 ### Server side
 
-- Java 22 or higher (compatibility for older versions are not tested yet.)
+- Java 22 or higher (compatibility for older versions haven't been tested yet.)
 - Maven
 - Discord Bot
 
