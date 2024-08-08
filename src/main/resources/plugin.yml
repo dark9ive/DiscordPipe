@@ -1,0 +1,5 @@
+name: DiscordPipe
+version: 1.0
+main: com.dark9ive.DiscordPipe.DiscordPipe
+api-version: 1.21
+description: A plugin to send console logs to a Discord channel via bot
