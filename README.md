@@ -25,18 +25,19 @@ DiscordPipe is a Minecraft Spigot server plugin that integrates Minecraft server
 - Discord Bot
 
 ### Client side
+
  - Any client will do, including the original one.
 
 ## Installation
 
-1. **Clone the Repository:**
+### Step 1. Clone the Repository
 
 ```sh
 git clone <repository_url>
 cd <repository_directory>
 ```
 
-2. Build the Plugin:
+### Step 2. Build the Plugin:
 
 Build the plugin using Maven:  
 
@@ -46,7 +47,7 @@ mvn package
 
 This will generate a JAR file in the `target` directory.  
 
-3. Deploy the Plugin:
+### Step 3. Deploy the Plugin:
 
 Copy the generated JAR file to your Minecraft server's `plugins` directory:  
 
@@ -54,9 +55,10 @@ Copy the generated JAR file to your Minecraft server's `plugins` directory:
 cp target/DiscordLogger-{version}.jar /path/to/your/minecraft/server/plugins/
 ```
 
-4. Configure the Plugin:
+### Step 4. Configure the Plugin:
 
-Start your Minecraft server once, and two new field will be created in your `server.properties`. Add your Discord bot token and channel ID to your `server.properties` file:
+Start your Minecraft server once, and two new field will be created in your `server.properties`.  
+Add your Discord bot token and channel ID to your `server.properties` file:
 
 ```properties
 discord.bot.token=YOUR_DISCORD_BOT_TOKEN
@@ -67,13 +69,13 @@ If you have no idea what they are, you can create your own Discord bot from [Dis
 
 ![DDP](./img/discord_developer_portal.png)  
 
-And you can got the ID of specific channel from your discord client.  
+Also, you can copy the channel ID by enabling "Developer Mode", right clicking once on the channel, and left click on this button.  
 
 ![channelID](./img/discord_channel_id.png)  
 
 If you still have trouble finding them, please refer to other tutorials. They are not the key point of this plugin.  
 
-5. Start the Server:
+### Step 5. Start the Server:
 
 Restart your Minecraft server. The plugin should now be active.
 
@@ -118,8 +120,10 @@ mvn clean package
  4. Submit a pull request.
 
 ## License
+
 This project is licensed under the MIT License.
 
 ## Acknowledgements
+
  - [JDA](https://github.com/discord-jda/JDA) for providing the Discord API.
  - The Spigot community for their extensive documentation and support.
